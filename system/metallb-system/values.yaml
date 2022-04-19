@@ -1,2 +1,7 @@
-metallb:
-  existingConfigMap: metallb-config
+  values:
+    configInline:
+      address-pools:
+        - name: default
+          protocol: layer2
+          addresses:
+            - "${METALLB_LB_RANGE}"
