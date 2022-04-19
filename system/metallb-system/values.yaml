@@ -4,4 +4,4 @@
         - name: default
           protocol: layer2
           addresses:
-            - "${METALLB_LB_RANGE}"
+            - 172.16.255.224/27
