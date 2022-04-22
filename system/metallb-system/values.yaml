@@ -3,5 +3,5 @@ configInline:
    - name: default
      protocol: layer2
      addresses:
-     - 172.16.255.224/27
+     - 172.16.255.160/27
             
