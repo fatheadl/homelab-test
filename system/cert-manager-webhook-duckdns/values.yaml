@@ -1,6 +1,10 @@
 namespace cert-manager
-duckdns.token='<token>'
-clusterIssuer.production.create=true
-clusterIssuer.staging.create=true
-clusterIssuer.email=<email>
+duckdns:
+  token: ""
+clusterIssuer:
+  email: name@example.com
+  staging:
+    create: false
+  production:
+    create: false
 logLevel=2
