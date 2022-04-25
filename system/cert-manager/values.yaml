@@ -1,9 +1,9 @@
 cert-manager:
   installCRDs: true
-  prometheus:
-    enabled: true
-    servicemonitor:
-      enabled: true
+  #prometheus:
+    #enabled: true
+    #servicemonitor:
+      #enabled: true
 
-issuer:
-  email: mail@172-28-0-3.nip.io
+#issuer:
+#  email: mail@172-28-0-3.nip.io
