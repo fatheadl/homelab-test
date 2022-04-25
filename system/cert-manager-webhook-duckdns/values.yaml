@@ -1,0 +1,6 @@
+namespace cert-manager
+duckdns.token='<token>'
+clusterIssuer.production.create=true
+clusterIssuer.staging.create=true
+clusterIssuer.email=<email>
+logLevel=2
